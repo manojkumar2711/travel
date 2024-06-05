@@ -1,0 +1,83 @@
+#draggable {
+    width: 150px;
+    padding: 0.5em;
+    background-color: burlywood;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#sortable li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    height: 1.5em;
+    width: 200px;
+    background-color: rgb(135, 202, 222);
+    color: white;
+}
+
+html>body #sortable li {
+    height: 1.5em;
+    line-height: 1.6em;
+}
+
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+
+.toggler {
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+#button {
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+#effect {
+    width: 240px;
+    padding: 1em;
+    border: 1px solid #000;
+    background: #eee;
+    color: #333;
+}
+
+.newClass{
+    text-indent: 40px;
+    letter-spacing: .4em;
+    width: 410px;
+    height: 120px;
+    padding: 30px;
+    margin: 10px;
+    font-size: 1.1em;
+}
+.accordion-1{
+    width: 500px;
+}
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    display: none;
+  }
+.myDiv1{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    
+  }
+.display{
+  display: block !important;
+  }
